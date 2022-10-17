@@ -14,6 +14,84 @@
     /* or inline-flex */
 }
 
+.card{
+    background-color: #FC5B00;
+    border-radius: 2rem;
+
+}
+
+.font-padrao{
+    // font-style: normal; //caso queira deixar alterar o estilo da fonte
+    // font-size: 2.5em; //caso queira alterar o tamanho da fonte
+    // font-family: "Times New Roman" //caso queira mudar o tipo de fonte
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.font-subtittle{
+    // font-style: normal; //caso queira deixar alterar o estilo da fonte
+    // font-size: 2.5em; //caso queira alterar o tamanho da fonte
+    // font-family: "Times New Roman" //caso queira mudar o tipo de fonte
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.titulo-card{
+    color: rgb(7, 14, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-text{
+    font-size: 20px;
+    color: black;
+}
+
+.imagem-custom {
+    display: inline-block;
+    position: relative;
+  }
+
+// #image {
+//     width: 60em;
+//     height: 60em;
+//   }
+
+ .texto {
+    position: absolute;
+    top: 190px;
+    /* right: 20px; */
+    font-size: 40px;
+    color: white;
+    padding-left: 150px;
+  }
+  
+  .texto2 {
+    // border-radius: 50%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    // box-shadow: 1px 1px 10px;
+  }
+
+
+  .fotter-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+  }
 // @media(max-width: 500px) {
 //     .footer-principal {
 //         // margin-top: auto;
