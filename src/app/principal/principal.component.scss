@@ -14,13 +14,18 @@
     /* or inline-flex */
 }
 
-.card{
-    background-color: #FC5B00;
-    border-radius: 2rem;
+.card-servicos {
+    background-color: white;
+    border-radius: 20px;
+}
+.card-valores{
+    background-color: black;
+    // margin-left: 1px;
+    // margin-right: 1px;
 
 }
 
-.font-padrao{
+.font-padrao {
     // font-style: normal; //caso queira deixar alterar o estilo da fonte
     // font-size: 2.5em; //caso queira alterar o tamanho da fonte
     // font-family: "Times New Roman" //caso queira mudar o tipo de fonte
@@ -32,7 +37,7 @@
     color: #FFFFFF;
 }
 
-.font-subtittle{
+.font-subtittle {
     // font-style: normal; //caso queira deixar alterar o estilo da fonte
     // font-size: 2.5em; //caso queira alterar o tamanho da fonte
     // font-family: "Times New Roman" //caso queira mudar o tipo de fonte
@@ -44,38 +49,72 @@
     color: #FFFFFF;
 }
 
-.titulo-card{
+.titulo-card {
     color: rgb(7, 14, 83);
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
 }
-.card-text{
-    font-size: 20px;
+
+.card-text {
+    font-size: 15px;
     color: black;
+    text-align: justify
 }
 
 .imagem-custom {
     display: inline-block;
     position: relative;
-  }
+}
 
 // #image {
 //     width: 60em;
 //     height: 60em;
 //   }
 
- .texto {
+figcaption {
+    position: absolute;
+    display: flex;
+    // top: 145px;
+    // height: 145px;
+    // right: 500px;
+    left: auto;
+    // margin-bottom: 30px;
+
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px black;
+}
+
+.icon-footer {
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.font-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card-titles-align-center{
+    text-align: center;
+}
+
+.texto {
     position: absolute;
     top: 190px;
     /* right: 20px; */
     font-size: 40px;
     color: white;
     padding-left: 150px;
-  }
-  
-  .texto2 {
+}
+
+.texto2 {
     // border-radius: 50%;
     width: 40%;
     height: 80%;
@@ -83,84 +122,184 @@
     justify-content: end;
     align-items: flex-end;
     // box-shadow: 1px 1px 10px;
-  }
+}
+
+.texto-footer {
+    position: absolute;
+    // background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    top: 40px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
+
+.texto-solicitar-orcamento{
+    position: absolute;
+    // background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    top: 50px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
 
 
-  .fotter-font{
+
+.fotter-font {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-  }
-// @media(max-width: 500px) {
-//     .footer-principal {
-//         // margin-top: auto;
-//         // margin-bottom: auto;
-//         // margin-left: auto;
-//         // margin-right: auto;
-//         display: flex;
-//         padding-bottom: 70px;
+}
 
-//     }
-//     .image-in-footet {
-//         margin-top: 35px;
-//         padding-left: auto;
-//         padding-right: auto;
-//     }
-// }
-// @media(min-width: 500px){
-//     .footer-principal{
-//         // margin-top: auto;
-//         // margin-bottom: auto;
-//         // margin-left: auto;
-//         // margin-right: auto;
-//         display: flex;
+// Small devices (landscape phones, 576px and up)  ///////////////////////////////// CELULAR ////////////////////////
+@media (min-width: 1px) {
+    .texto-footer {
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        top: 1px;
+        width: 315px;
+        line-height: 30px;
+        height: 30px;
+    }
 
-//         padding-bottom: 70px;
+    .div-class-button-footer{
+        margin-left: 60px;
+    }
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 60px;
+        width: 200px;
+        line-height: 30px;
+        height: 30px;
+        
+    }
+}
 
-//     }
-//     .image-in-footet {
-//         margin-top: 35px;
-//         margin-left: 50px;
-//         margin-right: 50px;
-//         padding-left: 20%;
-//         padding-right: 100%;
-//         border-radius: 10%;
-//     }
-//    }
+// Medium devices (tablets, 755px and up)
+@media (min-width: 755px) {
 
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 40px;
+        width: 700px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 220px;
+    }
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 120px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
 
-//    @media(min-width: 450px){
-//     .footer-principal{
-//         // margin-top: auto;
-//         // margin-bottom: auto;
-//         // margin-left: auto;
-//         // margin-right: auto;
-//         // display: flex;
-//         padding-top: 10px;
-//         padding-bottom: 70px;
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 100px;
+        width: 950px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 350px;
+    }
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
 
-//     }
-//     .image-in-footet {
-//         // margin-top: 35px;
-//         // margin-left: 5px;
-//         // margin-right: 5px;
-//         // padding-left: 13%;
-//         // padding-right: 15%;
-//         // border-radius: 10%;
-//         // position: static;
-//         width: 100%;
-//         // bottom: 30px;
+// Extra large devices (large desktops, 1200px and up) ///////////////////////////////// DESKTOP////////////////////////////////
+@media (min-width: 1200px) {
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 140px;
+        width: 1260px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 500px;
+    }
 
-//     }
-//    }
-.footer-principal{
-            // margin-top: auto;
-            // margin-bottom: auto;
-            // margin-left: auto;
-            // margin-right: auto;
-            // display: flex;
-            padding-top: 10px;
-            padding-bottom: 70px;
-    
-        }
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 250px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        width: 1770px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 760px;
+    }
+
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 250px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
+
+.footer-principal {
+    // margin-top: auto;
+    // margin-bottom: auto;
+    // margin-left: auto;
+    // margin-right: auto;
+    // display: flex;
+    padding-top: 10px;
+    padding-bottom: 70px;
+
+}
