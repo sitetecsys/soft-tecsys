@@ -154,7 +154,19 @@ figcaption {
     font-weight: 700;
     font-size: 30px;
 }
+.footer-principal {
+    // margin-top: auto;
+    // margin-bottom: auto;
+    // margin-left: auto;
+    // margin-right: auto;
+    // display: flex;
+    padding-top: 10px;
+    padding-bottom: 70px;
 
+}
+.carrousel-moving{
+    padding-bottom: 25px;
+}
 // Small devices (landscape phones, 576px and up)  ///////////////////////////////// CELULAR ////////////////////////
 @media (min-width: 1px) {
     .texto-footer {
@@ -162,7 +174,7 @@ figcaption {
         color: #fff;
         text-align: center;
         top: 1px;
-        width: 315px;
+        width: 345px;
         line-height: 30px;
         height: 30px;
     }
@@ -176,10 +188,23 @@ figcaption {
         color: #fff;
         text-align: center;
         top: 60px;
-        width: 200px;
+        width: 220px;
         line-height: 30px;
         height: 30px;
         
+    }
+    .carrousel-moving{
+        padding-bottom: 200px;
+    }
+    .footer-principal {
+        // margin-top: auto;
+        // margin-bottom: auto;
+        // margin-left: auto;
+        // margin-right: auto;
+        // display: flex;
+        padding-top: 300px;
+        padding-bottom: 70px;
+    
     }
 }
 
@@ -293,13 +318,3 @@ figcaption {
     }
 }
 
-.footer-principal {
-    // margin-top: auto;
-    // margin-bottom: auto;
-    // margin-left: auto;
-    // margin-right: auto;
-    // display: flex;
-    padding-top: 10px;
-    padding-bottom: 70px;
-
-}
