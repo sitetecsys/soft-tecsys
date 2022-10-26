@@ -174,13 +174,13 @@ figcaption {
         color: #fff;
         text-align: center;
         top: 1px;
-        width: 345px;
+        // width: 345px;
         line-height: 30px;
         height: 30px;
     }
 
     .div-class-button-footer{
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .texto-solicitar-orcamento{
         position: absolute;
@@ -188,7 +188,7 @@ figcaption {
         color: #fff;
         text-align: center;
         top: 60px;
-        width: 220px;
+        // width: 220px;
         line-height: 30px;
         height: 30px;
         
@@ -209,104 +209,33 @@ figcaption {
 }
 
 // Medium devices (tablets, 755px and up)
-@media (min-width: 755px) {
+@media (min-width: 70em) {
 
     .texto-footer {
-        position: absolute;
-        // background-color: rgba(0,0,0,0.5);
-        color: #fff;
-        text-align: center;
-        top: 40px;
-        width: 700px;
-        line-height: 30px;
-        height: 30px;
-    }
-    .div-class-button-footer{
-        margin-left: 220px;
-    }
-    .texto-solicitar-orcamento{
         position: absolute;
         // background-color: rgba(0,0,0,0.5);
         color: #fff;
         text-align: center;
         top: 120px;
-        width: 250px;
-        line-height: 30px;
-        height: 30px;
-    }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .texto-footer {
-        position: absolute;
-        // background-color: rgba(0,0,0,0.5);
-        color: #fff;
-        text-align: center;
-        top: 100px;
-        width: 950px;
+        // width: 700px;
         line-height: 30px;
         height: 30px;
     }
     .div-class-button-footer{
-        margin-left: 350px;
-    }
-    .texto-solicitar-orcamento{
-        position: absolute;
-        // background-color: rgba(0,0,0,0.5);
-        color: #fff;
-        text-align: center;
-        top: 180px;
-        width: 250px;
-        line-height: 30px;
-        height: 30px;
-    }
-}
-
-// Extra large devices (large desktops, 1200px and up) ///////////////////////////////// DESKTOP////////////////////////////////
-@media (min-width: 1200px) {
-    .texto-footer {
-        position: absolute;
-        // background-color: rgba(0,0,0,0.5);
-        color: #fff;
-        text-align: center;
-        top: 140px;
-        width: 1260px;
-        line-height: 30px;
-        height: 30px;
-    }
-    .div-class-button-footer{
-        margin-left: 500px;
-    }
-
-    .texto-solicitar-orcamento{
-        position: absolute;
-        // background-color: rgba(0,0,0,0.5);
-        color: #fff;
-        text-align: center;
-        top: 250px;
-        width: 250px;
-        line-height: 30px;
-        height: 30px;
-    }
-}
-
-@media (min-width: 1300px) {
-    .texto-footer {
-        position: absolute;
-        // background-color: rgba(0,0,0,0.5);
-        color: #fff;
-        text-align: center;
-        top: 180px;
-        width: 1770px;
-        line-height: 30px;
-        height: 30px;
-    }
-    .div-class-button-footer{
-        margin-left: 760px;
+        margin-left: 450px;
     }
     .carrousel-moving{
         padding-bottom: 25px;
+    }
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;   
     }
     .footer-principal {
         // margin-top: auto;
@@ -314,8 +243,110 @@ figcaption {
         // margin-left: auto;
         // margin-right: auto;
         // display: flex;
-        padding-top: 15px;
+        padding-top: 50px;
         padding-bottom: 70px;
+    
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 89em) {
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 100px;
+        // width: 950px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 100px;
+    }
+    .carrousel-moving{
+        padding-bottom: 25px;
+    }
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .footer-principal {
+        // margin-top: auto;
+        // margin-bottom: auto;
+        // margin-left: auto;
+        // margin-right: auto;
+        // display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+    
+}
+
+// Extra large devices (large desktops, 1200px and up) ///////////////////////////////// DESKTOP////////////////////////////////
+@media (min-width: 92em) {
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        // width: 160px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 670px;
+    }
+
+    .texto-solicitar-orcamento{
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 250px;
+        width: 250px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .carrousel-moving{
+        padding-bottom: 20px;
+    }
+    .footer-principal {
+        // margin-top: auto;
+        // margin-bottom: auto;
+        // margin-left: auto;
+        // margin-right: auto;
+        // display: flex;
+        padding-top: 10px;
+        padding-bottom: 70px;
+    
+    }
+}
+
+@media (min-width: 110em) {
+    .texto-footer {
+        position: absolute;
+        // background-color: rgba(0,0,0,0.5);
+        color: #fff;
+        text-align: center;
+        top: 180px;
+        // width: 1170px;
+        line-height: 30px;
+        height: 30px;
+    }
+    .div-class-button-footer{
+        margin-left: 760px;
+    }
+    .carrousel-moving{
+        padding-bottom: 15px;
     }
     .texto-solicitar-orcamento{
         position: absolute;
@@ -326,6 +357,16 @@ figcaption {
         width: 250px;
         line-height: 30px;
         height: 30px;
+    }
+    .footer-principal {
+        // margin-top: auto;
+        // margin-bottom: auto;
+        // margin-left: auto;
+        // margin-right: auto;
+        // display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
     }
 }
 
