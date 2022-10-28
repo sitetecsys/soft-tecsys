@@ -209,20 +209,20 @@ figcaption {
 }
 
 // Medium devices (tablets, 755px and up)
-@media (min-width: 70em) {
+@media (min-width: 620px) {
 
     .texto-footer {
         position: absolute;
         // background-color: rgba(0,0,0,0.5);
         color: #fff;
         text-align: center;
-        top: 120px;
+        top: 100px;
         // width: 700px;
         line-height: 30px;
         height: 30px;
     }
     .div-class-button-footer{
-        margin-left: 450px;
+        margin-left: 350px;
     }
     .carrousel-moving{
         padding-bottom: 25px;
@@ -232,7 +232,7 @@ figcaption {
         // background-color: rgba(0,0,0,0.5);
         color: #fff;
         text-align: center;
-        top: 180px;
+        top: 160px;
         width: 250px;
         line-height: 30px;
         height: 30px;   
